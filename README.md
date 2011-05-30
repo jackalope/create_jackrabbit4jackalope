@@ -8,7 +8,7 @@ These scripts here are for generating and uploading those packages.
 
 # HOW TO
 
-1) clone this repository into a subdirectory of your jackrabbit checkout
-2) run create_jackrabbit4jackalope/mvninstall.sh for generating the jar
-3) cp config.inc.php-dist to config.inc.php and add your credentials
-4) run create_jackrabbit4jackalope/upload_to_S3.sh  for uploading the package and index.html
+1. clone this repository into a subdirectory of your jackrabbit checkout
+2. run create_jackrabbit4jackalope/mvninstall.sh for generating the jar
+3. cp config.inc.php-dist to config.inc.php and add your credentials
+4. run create_jackrabbit4jackalope/upload_to_S3.sh  for uploading the package and index.html
