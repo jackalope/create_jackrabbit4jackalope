@@ -11,8 +11,8 @@ if(!$dst) {
     $dst = $src;
 }
 
-require_once '/opt/git/php-osx/AWSSDKforPHP/sdk.class.php';
-include("/opt/git/php-osx/config.inc.php");
+require_once './AWSSDKforPHP/sdk.class.php';
+include("config.inc.php");
 
 upload($src,$dst,$type);
 
